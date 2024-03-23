@@ -13,7 +13,7 @@ The proposed circuit is a ultra low-power comparator designed for SkyWater 130 n
 | ----------------------------------- | --- | ------- | ---------- | ------ | ----- |
 | Operating Temperature               | -40 |      25 |         85 |     °C |.      |
 | Input Common-Mode Range             |  27 |         |         95 |   %Vdd |       |
-| Input Offset Voltage                |     |     0.1 |        0.5 |     mV | At 1pF capcitor load |
+| Input Offset Voltage                |     |       2 |            |     mV | At 1pF capcitor load |
 | Propagation Delay                   |     |     0.5 |.           |.    us |       |
 | Output Voltage Swing                |  0  |         |        1.8 |     mV | At 1pF capcitor load |
 | Power Consumption (Enabled)         |     |         |.      5.97 |     uA | At 1pF capcitor load |
@@ -21,7 +21,7 @@ The proposed circuit is a ultra low-power comparator designed for SkyWater 130 n
 | PSRR (Power Supply Rejection Ratio) |  __ |         |            |     dB |       |
 | CMRR (Common mode Rejection Ratio)  |  __ |.        |.           |     dB |       |
 | Output Current Drive                |     |.     __ |.           |     mA |       |
-| Input Capacitance                   |     |.     |.           |     dB |       |
+| Input Capacitance                   |     |.        |.       0.1 |     pF |       |
 | Frequency Bandwidth                 |  5  |.     10 |.        20 |    kHz |       |
 | Output load                         |     |       1 |.           |     pF |       |
 
